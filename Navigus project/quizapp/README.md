@@ -1,14 +1,4 @@
 # Quiz App
-A quiz app with admin privileges working on node js and mongodb
-
-<h3><u>Problem Statement</u></h3><br>
-<p>Create a quiz app for an educational institute where they can do following. </p>
-<p>Admin should be able to create quiz with various instructions regarding the quiz, questions, answers, explanations and duration for the
-quiz.</p>
-<p>At any point of time admin can enable or disable the quiz itself.</p>
-<p>At any point of time admin can enable or disable any question.</p>
-<p>At any point of time admin can add, remove or edit the question for an existing quiz.</p>
-<p>Apart from the admin rest of the users can only see the quiz and questions.</p>
 
 <h3><u>Implementation</u></h3><br>
 <p>1. The database schema for the above problem statement is located at<b><a href="models/quizes.js"> models/quizes.js</a></b> file</p>
@@ -28,9 +18,9 @@ This means only admin can create, update or delete a quiz/question </p>
 
 <h3><u>Deployment steps</u></h3><br>
 <ul>
-<li>Clone the entire repository to a new folder on desktop</li>
+<li>Clone or download the entire repository to a new folder on desktop</li>
 <li>Open the command prompt from the same folder and type <b>npm install</b>. This will download all the required dependencies which are present in package.json file</li>
-<li>Now open the mongodb terminal and create a new database named quiz. All the quizes and questions will be stored here.</li>
+<li>Now open the mongodb terminal and create a new database named quiz. All the quizes and questions will be stored here. Database will be locally hosted.</li>
 <li>All the logs will be stored in <b><a href = "logs/app.log"> logs/app.log</a></b> file</li>
 <li>For doing unit tests type the command <b>npm run test</b>. This will do the unit tests on different end points for sanity checking.</li>
 <li>To start the server enter the command <b>npm start</b></li>
